@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.imooc.mall2.Mall2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.185 s - in com.imooc.mall2.Mall2ApplicationTests
