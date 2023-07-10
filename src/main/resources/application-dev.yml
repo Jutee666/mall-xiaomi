@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    url: jdbc:mysql://127.0.0.1:3306/mall?characterEncoding=utf-8&userSSL=false&serverTimezone=Asia/Shanghai&useTimezone=true
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
+logging:
+  pattern:
+    console: "[%thread] %-5level %logger{36} - %msg%n"
+
+wx:
+  appId: wx3e6b9f1c5a7ff034
+  mchId: 1614433647
+  mchKey: Aa111111111122222222223333333333
+  notifyUrl: http://imxx-mall.natapp1.cc/pay/notify
+  returnUrl: http://127.0.0.1
